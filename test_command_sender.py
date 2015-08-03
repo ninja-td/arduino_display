@@ -4,7 +4,7 @@ import random
 import get_data
 
 
-ser = serial.Serial(6)
+ser = serial.Serial(2)
 ser.baudrate =9600
 ser.timeout = 2
 time.sleep(2)
